@@ -1,150 +1,217 @@
-# ATEC2025 · 人工智能机器人创新应用&安全
-当灾害突袭、生命危殆，谁能为人类筑起安全防线？当科技与责任交汇，如何让机器之心承载人文之光？本届赛事以"人工智能机器人创新应用与安全"为主题，诚邀全球顶尖高校、科研机构、科技企业与极客团队参赛，共同挑战人工智能与机器人技术的创新极限，探索科技向善的终极答案。大赛聚焦人工智能与机器人技术融合，探索机器人的自主感知、认知推理、规划决策、自主导航、灵巧操作、虚实迁移等前沿关键技术，打造能够在多种复杂动态场景中应用的通用具身智能体。赛事设立"人工智能软件算法"与"机器人硬件设计"双赛道，分线上和线下两阶段进行。赛题将重点考察参赛选手在人工智能和机器人领域的综合创新能力，引领多领域前沿技术的深度交叉融合，攻克行业技术难题，让科技造福人类。
-报名地址：https://www.atecup.com/competitions/atec2025
-# 赛程设置
-报名：2025年2月21日 22:00-4月25日 10:00（UTC+8）
-线上赛-软件赛道：2025年3月13日 10:00-5月8日 10:00（UTC+8）
-线上赛-硬件赛道：2025年2月21日 22:00-4月25日 10:00（UTC+8）
-线下赛：2025年11月
-# 赛道介绍
-# 线上赛赛道一：软件赛道
-本赛题以伤员救援任务为背景，重在考察选手设计并实现自主具身智能体系统的能力，使机器人能够根据给定的任务线索提示，主动感知环境，推理情境，自主决策和规划路径，并在执行过程中根据环境状态变化实时动态调整策略。赛队所设计提交的智能体模型应具备良好的鲁棒性和适应性，能够在复杂多变的高动态场景中稳定运行。每支赛队提交的智能体模型将在近真实虚拟环境中测试实际运行效果，考察参赛者对感知、推理、决策等具身智能相关技术的掌握程度和综合开发能力。本赛道共包含5个难度级别赛题（L1～L5），赛题将按规划时间依次开放，选手需答题通关进阶，最终以L5成绩作为线上赛最终成绩进行排名及评奖。
-# 时间安排
-报名 2025年2月21日22:00-4月25日10:00（UTC+8）
-线上赛 2025年3月13日10:00-5月8日10:00（UTC+8）
-代码审查资料提交 2025年5月9日10:00-5月15日10:00（UTC+8）
-代码审查 2025年5月16日-5月30日
-成绩发布 2025年6月2日
-# 提交&评分规则
-详见《答题指南》说明。
-# 答题规则
-本赛道采用五级进阶制（L1-L5），各阶段成绩独立计算，不进行跨阶段累计，L5阶段最终成绩将作为奖项评定的唯一依据。晋级机制如下：
-1. 各阶段设置独立排行榜，按成绩进行梯度排名
-2. 晋级评定采用动态分数线机制，以各阶段晋级开放时点的成绩分布为准（*有效提交，指赛队提交有产出成绩且成绩大于0）
-3. 当开放下一阶段晋级后，评测成绩达到晋级分数线的参赛队伍都将自动晋级
-
-各个级别的晋级开放时间如下（可能随赛程进展有所微调）：
-● L1（开赛时间）：2025年3月13日10:00A.M.，L1晋级L2的分数线为0.475。
-● L2：2025年3月20日10:00A.M.
-● L3：2025年3月27日10:00A.M.
-● L4：2025年4月3日10:00A.M.
-● L5：2025年4月17日10:00A.M.
+![ATEC2025主视觉](https://github.com/user-attachments/assets/9dce0e2b-ae76-4875-ba11-5f2b7d414d6b)
+# ATEC2025 · AI and Robotics Real-World Challenges
+When disaster strikes and lives are at risk, who can build the line of defense for humanity? When technology meets responsibility, how can machines reflect human values? ATEC 2025, themed "AI and Robotics Real-World Challenges", invites top universities, research institutions, tech companies, and geek teams from around the world to explore the use of technology for social good. The competition focuses on autonomous perception, cognitive reasoning, decision-making, autonomous navigation, dexterous manipulation, and virtual-physical migration to develop versatile embodied AI systems for complex scenarios. It features two tracks (AI Software Algorithms & Robot Hardware Design), including Online and Offline Competition, aimed at innovating participants to integrate advanced technologies in multiple fields, resolve technical difficulties, ultimately anchoring progress in human welfare.  
+Sign up now: https://www.atecup.com/competitions/atec2025
+# Schedule
+Registration: Feb 21, 2025 22:00 - Apr 10, 2025 10:00 (UTC+8）  
+Online Competition – Software Track: Mar 13, 2025 10:00 - May 8, 2025 10:00  (UTC+8）  
+Online Competition – Hardware Track: Feb 21, 2025 22:00 - Apr 25, 2025 10:00 (UTC+8）  
+Offline Competition:  November 2025  
+# Track Overview
+# Online Competition – Track 1: Software Track
+This track focuses on a rescue mission, where Contestants must design and implement autonomous embodied AI agents. The robots must be able to autonomously perform perception, reasoning, decision-making, and route planning based on task clues. During execution, the robots must dynamically adjust to changes in the environment. The models submitted by the teams must demonstrate robustness and adaptability, and ensure stable operation in complex and changing environments.   
+The submitted AI agent models will be tested in a virtual environment to evaluate the contestants' comprehensive development skills and mastery of embodied intelligence technologies, such as perception, reasoning, and decision-making. This track consists of five difficulty levels (L1–L5). Challenges will be released in order based on the schedule. Contestants must complete each level to advance to the next. The final ranking and awards will be determined by their score in L5.  
+# Timeline
+Registration: Feb 21, 2025 22:00 - Apr 25, 2025 10:00 (UTC+8)
+Online Competition: Mar 13, 2025 10:00 - May 8, 2025 10:00 (UTC+8)
+Submission of Code Review Materials: May 9, 2025 10:00 - May 15, 2025 10:00 (UTC+8)
+Code Review: May 16, 2025 - May 30, 2025
+Result Announcement: Jun 2, 2025
+# Submission & Scoring Rules
+For more information, refer to the Answering Guide.  
+# Answering Rules
+This track consists of five levels (L1–L5) with each level scored separately. Scores do not carry over between levels. Only the final score in L5 will be used to determine awards.  
+The advancement rules are as follows:  
+1. Each level has its own leaderboard, ranking contestants based on their scores.  
+2. The advancement evaluation adopts a dynamic cutoff score mechanism, determined by the score distribution at the opening of each advancement stage (*A valid submission refers to a team submission that obtains an output score and it must be greater than 0).  
+3. When a new level opens, all teams that meet the advancement threshold will automatically advance to this level.  
+The advancement times for each level are as follows (subject to minor adjustments as the competition progresses):  
+· L1 (Start Time): Mar 13, 2025 10:00 AM (The score line for advancement from L1 to L2 is 0.475.)   
+· L2: Mar 20, 2025 10:00 AM  
+· L3: Mar 27, 2025 10:00 AM    
+· L4: Apr 3, 2025 10:00 AM    
+· L5: Apr 17, 2025 10:00 AM
+    
+Notes:  
+1. The time zone used in these rules is UTC+8. The system will automatically adjust the time in competition-related announcements based on your login location.  
+2. When a level opens, the advancement threshold for this level is set based on the top 80% of teams with valid submissions.  
+3. Once a level opens for advancement, any team that meets or exceeds the advancement threshold will advance automatically.  
 
 注：
 1. 本规则所述时区为UTC+8，请各参赛队伍阅读公告时注意时区换算，系统计时将依据IP登录地区时间自动换算；
 2. 晋级开放时，当前级别有效提交的前80%赛队所取得的分数将被定为该级别的晋级分数线；
 3. 开放晋级后，达到该级别晋级分数线的赛队也将自动晋级。
-# 算力券
-组委会将为参赛队伍提供算力券支持，具体规则详见《ATEC线上赛算⼒券发放及使⽤规则》。
+# Computing Credits
+The Organizing Committee will provide computing credits to participating teams. For more details, please refer to the Rules for Issuance and Use of Computing Credits for ATEC 2025 Online Competition.  
 
-# 线上赛赛道二：硬件赛道 
-本次硬件线上赛旨在评估参赛队所设计的机器人系统在非结构化地形和环境下的运动能力与物体操作技能。参赛队伍需设计并验证一款集成足式机器人与操作机械臂的系统，其中移动平台自由选择，但机械臂、抓取系统和感知系统需自主设计与搭建。任务要求机器人在仿真环境中展现出平稳行走、复杂地形适应能力，以及机械臂对目标物体的精准抓取和搬运能力。团队需提交详细的设计方案，包括运动控制算法、机械臂结构、系统集成接口及安全防护措施，并通过仿真验证系统的稳定性、操作抓取性能和抗冲击能力。设计需考虑机械臂与移动平台的重量分布、动态载荷及振动问题，确保系统在复杂任务中的高效运行。
-# 时间安排
-报名 2025年2月21日22:00-4月25日10:00（UTC+8）
-线上赛 2025年2月21日22:00-4月25日10:00（UTC+8）
-线上评审 2025年4月26日-5月30日10:00（UTC+8）
-成绩发布 2025年6月2日
-# 任务要求
-参赛队伍需设计并验证一款集成足式机器人与操作机械臂的系统，其中足式机器人可以自定，机械臂和抓取系统，以及感知系统需要自己设计与搭建，该系统需在完成预定任务时体现出优越的机械设计水平和系统协同能力。具体任务包括：
-1. 移动平台算法设计与演示
-a. 目标：基于官方提供的四足或人形机器人或自主研发的足式平台，要求在仿真环境中展现出平稳行走与对复杂地形（如斜坡、障碍）适应能力。
-b. 算法设计要求：
-● 提供详细的运动控制算法和感知方案报告。
-● 针对机器人行走稳定性进行物理引擎下的3D仿真环境仿真，验证设计在不同负载及地形条件下的稳定性。
-● 算法设计应考虑搭配机械臂后重量分布及机械臂抓取时的多接触抗冲击能力。
-c. 结果展示要求：
-● 自主搭建全地形仿真环境：楼梯，斜坡，崎岖地面，柔软沙地等至少选两个，参赛者尽可能多的实现动态移动能力。
-● 具备在上述环境下的移动能力。
-2. 机械臂和末端执行器设计与操作演示
-a. 目标：设计一款与移动平台集成的机械臂与末端执行器，实现对目标物体的抓取和搬运任务。
-b. 机械设计要求：
-● 提交机械臂与末端执行器详细设计图，包括关节设计、连杆尺寸、驱动方式以及末端执行器（如夹具或吸盘）的设计方案。
-● 对机械臂与末端执行器的运动范围、刚性与承载能力进行分析，并通过仿真验证抓取过程中机械臂结构的稳定性和精度。
-● 考虑机械臂与移动平台之间的安装方式与结构接口，确保整体系统紧凑且易于维护。
-c. 结果展示要求：
-● 自主搭建抓取物品和目标放置区域，其中物体可包括基础几何体形状如可乐罐和不规则物体如香蕉。 参赛者尽可能多实现抓取和操作的能力。
-● 展示在仿真环境中较高的不同物体抓取可重复性。
-3. 系统集成与协同作业
-a. 目标：在任务区域内，机器人平台需自主行走至目标区域，机械臂自主完成对目标物体的抓取、搬运和放置。
-b. 系统集成要求：
-● 提供整体系统的装配图和结构协调方案，说明各模块（移动平台、机械臂、控制模块）之间的接口设计和连接方式。
-● 对于平台与机械臂协同工作过程中产生的动态载荷、振动等问题进行设计预防，并在仿真中展示系统稳定运行的效果。
-● 针对操作过程中的安全防护设计（如过载保护、碰撞缓冲结构）提出明确方案。
-c. 结果展示：
-● 参照任务1和任务2完成全过程的展示。
-# 评审流程
-1. 材料上传
-a. 所有参赛队伍需在规定截止日期前，通过指定平台上传完整的设计文档、仿真数据、视频演示及源代码等电子材料。
-b. 参赛团队需提交完整的设计文档（PDF格式），内容涵盖系统整体架构、机械结构设计、控制算法原理、感知与决策方案等关键部分。文档应逻辑清晰、图文并茂，详细阐述设计思路、技术亮点及创新点，并附上必要的理论分析、仿真验证结果及性能评估数据。
-c. 仿真工程运行复现说明书要求：团队需提供详细的仿真工程运行复现说明书，包括但不限于以下内容：
-● 环境配置：明确列出仿真平台所需的软件环境、依赖库及版本信息，并提供详细的安装与配置步骤。
-● 代码运行流程：清晰描述代码结构、模块功能及运行流程，确保评审人员能够快速复现仿真结果。
-● 参数设置与调试说明：提供关键参数的设置方法及调试建议，确保仿真的可重复性与稳定性。
-● 结果验证与数据分析：说明如何通过仿真结果验证系统性能，并提供数据分析方法及结论。
-2. 初步筛选
-● 材料审核：评审委员会将对各团队提交的材料进行完整性及格式审核，确保所有必要文件（如设计文档、仿真工程、复现说明书等）齐全且符合规范要求。
-● 初筛结果：初筛阶段将根据材料质量筛选出进入第二轮面试的优秀团队。
-3. 面试评审
-● 评分依据：评审委员会将依据赛事评分标准，通过审阅设计文档、观看演示视频及复现仿真运行结果，分别从“机器人系统设计”和“方案创新性”两个维度进行综合评分。
-● 评分细则：每个评分维度均设有明确的打分细则及参考要点，评委将通过在线评审系统完成评分表的填写。
-● 答辩形式：面试环节采用线上答辩形式，参赛团队需进行实时仿真演示，并回答评委提问，以全面展示方案的技术细节与创新亮点。
-4. 公布成绩
-● 结果公布：最终比赛成绩及团队排名将于赛事官网统一公布，同时通过邮件通知各参赛团队，确保结果公开、透明。
-# 评分维度与标准（满分：100分）
-1. 机器人系统设计（60分）
-移动性（20分）
-评审重点：
-● 仿真视频中是否展示了足式机器人腿部/步态设计的稳定性与抗震能力；
-● 提交的仿真数据是否充分证明机器人在任务一仿真环境中的运动性能，包括复杂地形适应能力及负载条件下的稳定性。
-
-操作性（20分）
-评审重点：
-● 机械臂及末端执行器在仿真环境中是否完成抓取、搬运任务的流畅性、精准度及可靠性；
-● 设计文档中是否详细阐述了机械臂夹持机构、传动系统等关键结构的设计原理，并提供了合理的理论支持与仿真验证。
-
-系统性（20分）
-评审重点：
-● 整体方案是否采用模块化设计，机械接口与各模块之间的衔接是否科学合理，便于装配与维护；
-● 能量与信号传递方案是否完善，在线仿真数据及视频是否充分体现系统整体协调性与任务完成度；
-● 系统集成后在仿真环境中是否完成任务一和任务二的表现，包括效率、稳定性及适应性。
-2. 设计方案（40分）
-智能性（5分）
-评审重点：
-● 基础导航、姿态调整及抓取功能是否具备智能辅助设计，如自适应调节、环境感知反馈等；
-● 在线仿真中是否展示了基本的智能反馈调节效果，体现系统在动态环境中的自主决策能力。
-
-创新性（15分）
-评审重点：
-● 机械结构、接口设计、材料选用或安全防护方案是否具有独到见解，突破传统设计局限；
-● 设计文档和图纸是否展现出解决行业痛点的新思路、新方法，并提供了充分的创新依据与验证结果。
-
-易用性（10分）
-评审重点：
-● 设计文档是否逻辑清晰、图文并茂，便于理解与复现；
-● 系统的模块化设计、组装流程及调试工具是否直观明了，便于后续使用与维护；
-● 是否提供了详细的安装指导、操作界面及技术支持，确保系统的可操作性与用户体验。
-
-安全性（10分）
-评审重点：
-● 是否设计了充分的机械冗余保护、缓冲机构及紧急停机方案，确保系统在异常状态下的安全性；
-● 在线仿真视频和数据是否展示了系统在突发外力或结构异常时，能够及时激活保护机制，确保关键部件安全并实现快速停机。
-
-# 线下赛：真实世界极限挑战赛
-线下赛赛题的考核范围融合了线上赛相关技术考点，但侧重于多种能⼒的综合应⽤和解题。 赛队将围绕现场给定的应用场景挑战答题。组委会将为提供赛事硬件设备清单，赛队可在遵守赛事规则的前提下，依据自身需求进行选配及合理改装；同时，组委会也鼓励选手自行创新研发设备参赛。
-# 入围规则
-线上赛结束后，各赛道前10名的赛队将被邀请入围线下赛。线下赛中将进行硬软组队。组队形式为1支硬件赛队与1支软件赛队组队。
-同时报名2个赛道且2个赛道成绩均位列前10名的赛队，可选择：
-1）不参与组队，占用2个赛道的晋级名额入围。
-2）参与组队，当2个赛道所获成绩名次不同，默认以高名次赛道赛队身份参与组队；当2个赛道所获成绩名次相同，可依据赛事规则，限时自选赛道赛队身份参与组队。
-补充说明：组队前，如有前10名赛队放弃组队，将邀请后续名次赛队补录。组队后，如有赛队弃权，与之组队的赛队可遵循前序规则，重新选择共同参与线下赛组队的赛队。
-
-同时，由于本届赛事首次面向全球招募选手，为了鼓励更多的优秀赛队参与。线下赛设有定向邀请名额，组委会将邀请由赛事评审委员会主席推举、且基于赛事规则投票通过的优秀赛队参与。定向邀请赛队名额上限为5支，每支队伍上限为8人。定向邀请赛队不参与线上赛，直接进入线下赛，赛中不参与硬软组队。
-在备赛期开始前，组委会将提供赛事硬件设备清单，参赛选手可在遵守赛事规则的前提下，依据自身需求进行选配及合理改装。同时，组委会也鼓励选手自行创新研发机器人系统参赛，并给予相关的津贴。有关设备清单详情及津贴使用的细则，请关注后续ATEC官网发布的相关信息。
-# 考察范围
-线下赛将在野外环境下使用各参赛队自己的一套机器人系统完成以下4项任务：
-1. 目标分拣任务：机器人需要在指定区域内识别、拾取、搬运和分类特定种类的目标物品。系统应具备视觉感知能力、精确操作能力和分类决策能力。
-2. 搬运洒水任务：机器人需要在指定区域内定位目标物体，对洒水器、水龙头等设备进行操作序列规划，并完成物体搬运和定点作业任务。系统需要整合环境感知、动作规划和精准控制等功能模块。
-3. 野外拉力任务：机器人需要在野外地形、拱桥、楼梯和缓坡等场景下保持稳定移动。系统需要具备多传感器数据融合能力和自适应运动控制能力。
-4. 吊桥穿越任务：机器人需要自主穿越间距不等的吊桥，并在必要时自行铺设木板以完成穿越。系统需要具备稳定的运动规划、视觉感知能力、精准操作能力和快速通行能力。
-# 硬件支持
-线下赛将为赛队提供产品级硬件设备，赛队可选择自行研发或从组委会提供的产品清单中进行选配。硬件设备介绍及选配规则预计将于5月上线。 
+# Online Competition – Track 2: Hardware Track 
+The Online Competition (Hardware Track) is designed to evaluate the locomotion and object manipulation capabilities of robot systems in unstructured terrains and environments. Teams must design and validate a system that integrates a legged robot with a robotic arm. While teams have the flexibility to choose their legged robot platform, they must independently design and construct the robotic arm, grasping system, and perception system.   
+The robot must demonstrate stable locomotion, adaptability to complex terrains, and precise object grasping and transportation in a simulated environment. Teams must submit a detailed design proposal, covering motion control algorithms, robotic arm structure, system integration interfaces, and safety and protection mechanisms. A simulation test is required to validate system stability, grasp accuracy, and impact resistance. Designs must consider weight distribution, dynamic loads, and vibrations of the robotic arm and mobile platform to ensure efficient performance in complex tasks.  
+# Timeline
+Registration: Feb 21, 2025 22:00 - Apr 25, 2025 10:00 (UTC+8)  
+Online Competition: Feb 21, 2025 22:00 - Apr 25, 2025 10:00 (UTC+8)  
+Online Review: Apr 26, 2025 - May 30, 2025 10:00 (UTC+8)  
+Result Announcement: Jun 2, 2025 (UTC+8)  
+# Task Requirements
+Teams must design and validate a system that integrates a legged robot with a robotic arm. Teams have the flexibility to select their legged robot, but they must independently design and construct the robotic arm, grasping system, and perception system.   
+The system must demonstrate advanced mechanical design and seamless system coordination when performing the assigned tasks. The following section describes the specific tasks:  
+1. Mobile Platform Algorithm Design and Demonstration  
+a. Objective: Teams must develop an algorithm for either the officially provided quadruped or humanoid robot or a self-developed legged platform to ensure stable locomotion and adaptability to complex terrains such as slopes and obstacles within a simulation environment.  
+b. Algorithm Design Requirements:  
+· Provide a detailed report on the motion control algorithm and perception strategy.  
+· Conduct physics-based 3D simulations to assess robot stability under varying loads and terrain conditions.  
+· Ensure balanced weight distribution and stable multi-contact grasping after integrating with the robotic arm.  
+c. Demonstration Requirements:  
+· Independently create a multi-terrain simulation environment, with at least two challenging surfaces, such as stairs, slopes, rough terrain, or soft sand, to fully showcase the dynamic locomotion of the robot.  
+· Demonstrate the mobility of the robot in the simulation environment.  
+2. Robotic Arm and End Effector Design and Demonstration  
+a. Objective: Teams must design a robotic arm and end effector capable of grasping and transporting objects in coordination with the mobile platform.  
+b. Mechanical Design Requirements:  
+· Submit detailed design schematics for the robotic arm and end effector, specifying the joint design, linkage dimensions, actuation methods, and end effector type (such as grippers and suction cups).  
+· Analyze the motion range, structural rigidity, and payload capacity of the robotic arm and end effector. Conduct a simulation test to validate the stability and precision of the robotic arm in grasping tasks.  
+· Design a well-structured interface between the robotic arm and the mobile platform to ensure a compact and easy-to-service system.  
+c. Demonstration Requirements:  
+· Set up a scene for pick-and-place tasks by using basic geometric objects such as soda cans and irregular objects such as bananas to fully showcase the grasping and manipulation capabilities of the robot.  
+· Demonstrate high repeatability in grasping different objects within a simulation environment.  
+3. System Integration and Collaborative Operation  
+a. Objective: The robotic system must autonomously navigate to a target area, and the robotic arm must independently grasp, transport, and place objects as specified in the task.  
+b. System Integration Requirements：  
+· Provide a system assembly diagram and structural coordination scheme, detailing the interface design and connection methods between the mobile platform, robotic arm, and control module.  
+· Mitigate dynamic loads, vibrations, and other issues arising from the interaction between the mobile platform and robotic arm, and validate system stability through simulation.  
+· Provide a clear plan for implementing safety mechanisms, such as overload protection and collision mitigation structures.  
+c. Demonstration Requirements:  
+· Demonstrate a seamless robotic workflow by integrating the previous two tasks.
+# Evaluation Process
+1. Submission of Materials  
+a. Teams must submit all electronic materials, including a complete design document, simulation data, a video demonstration, and source code, via the designated platform before the specified deadline. 
+b. The design document (PDF format) should cover the system architecture, mechanical design, control algorithm principles, and perception and decision-making strategies. The document should be logically structured and visually informative, clearly explaining design concepts, technical highlights, and innovations. The document should also include theoretical analysis, simulation results, and performance evaluation data.  
+c. Teams must provide detailed instructions for reproducing the simulation results, which include, but are not limited to, the following information:  
+· Environment Setup: List the required software, dependency libraries, and version details, along with step-by-step installation and configuration instructions.  
+· Code Execution Process: Explain the code structure, module functions, and execution process to ensure reviewers can easily reproduce the simulation results.  
+· Parameter Configuration and Debugging: Provide instructions on configuring and debugging key parameters to ensure the reproducibility and stability of the simulation.  
+· Result Validation and Data Analysis: Describe the method for validating system performance using simulation results and provide the data analysis methodology and conclusion.  
+2. Preliminary Screening  
+· Material Review: The Jury Committee will verify the integrity and format of all submissions to ensure that all required documents, such as design documents, simulation projects, and reproduction instructions, are included and meet the specified requirements.  
+· Screening Result: Teams will be evaluated based on the quality of their submissions, with the top teams advancing to the interview round.  
+3. Interview Evaluation  
+· Scoring Criteria: The Jury Committee will evaluate each submission based on the competition’s scoring criteria by reviewing design documents, video demonstrations, and reproduced simulation results. The evaluation focuses on two dimensions: “robot system design” and “innovation of the solution”.  
+· Scoring Guidelines: Clear guidelines and key points are provided for scoring in each dimension. Judges will submit scores via an online review system.  
+· Defense Presentation: The interview will be conducted online, where teams must provide a real-time simulation demonstration and respond to judges’ questions to showcase the technical highlights and innovations of their solutions.  
+4. Result Announcement  
+· Result Announcement: The competition results and team rankings will be officially published on the competition website and sent to teams via email to ensure transparency and fairness.
+# Scoring Dimensions and Criteria (Total: 100 Points)
+1. Robot System Design (60 points)  
+Locomotion (20 points)  
+--  
+Evaluation Criteria:  
+Whether the simulation video demonstrates the stability and shock resistance of the legged robot, as ensured by its leg structure and gait design;  
+Whether the submitted simulation data provides sufficient evidence of the locomotion performance of the robot in the simulation environment for Task 1, including its adaptability to complex terrains and stability under load.    
+  
+Operability (20 points)  
+--
+Evaluation Criteria:  
+Whether the robotic arm and end effector perform grasping and handling tasks smoothly, accurately, and reliably within the simulation environment;  
+Whether the design documentation clearly explain the principles behind key components, such as the gripping mechanism of the arm and transmission system, while providing solid theoretical support and validating the design through simulation.  
+  
+Systematic Integration (20 points)
+--
+Evaluation Criteria:  
+Whether the overall design incorporates a modular architecture, and whether the mechanical interfaces and inter-module connections are logically organized to facilitate assembly and maintenance;  
+Whether the energy and signal transmission scheme is robust and reliable, and whether the online simulation data and videos clearly demonstrate the overall coordination and task execution of the system;  
+Whether the robot successfully completes Task 1 and Task 2 in the simulation environment after full system integration, exhibiting efficiency, stability, and adaptability.  
+  
+2. Design Proposal (40 points)  
+Intelligence (5 points)  
+--  
+Evaluation Criteria:  
+Whether the design incorporates intelligent features, such as adaptive adjustments and environmental perception feedback, for basic navigation, posture adjustment, and grasping;  
+Whether the online simulation demonstrates effective intelligent feedback and adjustment, highlighting the ability of the system to make autonomous decisions in dynamic environments.  
+  
+Innovation (15 points)
+--
+Evaluation Criteria:  
+Whether the mechanical structure, interface design, material selection, or safety features offer innovative solutions that surpass traditional design limitations;  
+Whether the design document and drawings present novel approaches to addressing industry challenges, supported by compelling evidence of innovation and validation results.  
+  
+Usability (10 points)
+--
+Evaluation Criteria:  
+Whether the design document is well-organized and visually informative to facilitate understanding and replication;  
+Whether the modular design, assembly process, and debugging tools are intuitive and user-friendly to ensure ease of use and maintenance;
+Whether the document provides comprehensive installation instructions, user interface descriptions, and technical support to ensure the operability of the system and enhance the overall user experience.  
+  
+Safety (10 points)
+--
+Evaluation Criteria:  
+Whether the design includes adequate mechanical redundancy, cushioning mechanisms, and emergency shutdown protocols to ensure safety under abnormal conditions;  
+Whether the online simulation videos and data effectively demonstrate the ability of the system to activate protective mechanisms in response to sudden external forces or structural anomalies, thus safeguarding critical components and enabling rapid shutdown.  
+# Submission Requirements
+1. Design Document  
+Content
+--  
+Provide a detailed description of the overall mechanical structure of the robot system, including the modular integration plan, interface parameters for each module (mechanical, energy, and signal), and installation diagrams;  
+Include a clear explanation of the safety features, such as redundancy mechanisms and emergency shutdown systems that ensure reliability under abnormal conditions;  
+The design document should be well-organized, with clear illustrations and annotations for easy understanding and replication.  
+Format  
+--  
+Submit the document in PDF or Word format, with a clear layout, readable text, and labeled pictures and diagrams. All tables and diagrams must include explanations;  
+Name the file in the format of: TeamID_DesignDocument.pdf/docx.  
+  
+2. Simulation Data  
+Simulation Task  
+--  
+Demonstrate the performance of the robot in climbing stairs and grasping and transporting objects on a 3D physics simulation platform;  
+Submit three 2-5 minute simulation videos or GIFs, each showing one of the three sub-tasks (e.g., movement, grasping, or collaboration);  
+The videos should highlight the system's stability, precision, and collaboration, with brief descriptions.  
+  
+File Format and Naming
+--
+The video format should be in the MP4 or GIF format, with at least 720p resolution;  
+Name the video files in the format of: TeamID_TaskX_DemoVideo.mp4/gif.  
+  
+3. File Submission  
+File Packaging and Size Limit  
+--  
+All files (design documentation, simulation videos, CAD models, robot models, and task execution code) must be bundled into a single compressed file, with a total size not exceeding 50MB;  
+Name the file in the format of: TeamID_SubmissionFiles.zip.  
+  
+Model and Code Spot-check
+--
+The submitted CAD models, simulation robot models, and task execution code must be complete and reproducible. The Jury Committee may conduct spot checks as needed;  
+Models and code should be accompanied by a brief explanatory document to ensure that the Jury can quickly understand and execute the models and code.  
+# Important Notices
+· Completeness of Materials: Teams must ensure all submitted materials (design documentation, simulation data, videos, and code) are complete, well-documented, and clearly presented for easy review by the judges.  
+· Online Presentation Criteria: The design should emphasize the mechanical structure, modular integration, and safety measures. The video should cover the entire task process, including responses to abnormal situations.  
+· Format Standard: All materials must follow a consistent format, with standardized file naming, to prevent any issues that could affect the review process.  
+· Time Limit: All materials must be uploaded before the deadline; late submissions will affect the score.  
+· Violation Rules:  
+A team shall be disqualified, if deemed to have committed the following actions intentionally.  
+a. The design and construction of the robot do not comply with the requirements of the competition rules.  
+b. Any act that poses danger to the game field, its surroundings, the robots, and/or people.  
+c. Any other act that goes against the spirit of fair competition.  
+d. Any act of non-compliance with the decisions of the Jury Committe.  
+# Offline Competition:  Real-World Extreme Challenge
+The Offline Competition is related to the Online Competition but focuses on the comprehensive application of various skills and problem-solving abilities. Teams are required to tackle challenges based on the application scenarios provided during the competition.The Organizing Committee will release a list of required hardware equipment. Contestants may select and modify their equipment within the bounds of competition rules. Contestants are also encouraged to develop their own equipment.  
+# Qualification Rules
+After the Online Competition ends, the top 10 teams from each track will be invited to the Offline Competition, where they will form combined teams. Each combined team will consist of one Hardware Track team and one Software Track team.  
+Teams that register for both tracks and place in the top 10 for each track may choose one of the following options:  
+1) Compete independently, occupying one qualification spot in each of the two tracks for entry to the Offline Competition.  
+2) Join a combined team. If the rankings for the two tracks differ, the team will form a combined team under the track with the higher ranking by default. If the rankings for both tracks are the same, the team may select its preferred track to form a combined team within the time limit specified by the competition rules.  
+Additional Notes:  
+If a top-10 team declines to form a combined team, the next highest-ranked team will be invited to take its place. If a team withdraws from a combined team, the remaining team may select a new partner according to the above rules to participate in the Offline Competition.  
+  
+As this is the first time the Competition is open to global participants, and to attract more outstanding teams, the Organizing Committee will invite teams, nominated by the Chair of the Jury Committee and selected through a vote based on competition rules, to participate in the Offline Competition. Up to five teams may be invited, with a maximum of eight members per team. These teams do not participate in the Online Competition. Instead, they advance directly to the Offline Competition and are not required to form combined teams.  
+  
+Before the preparation period begins, the Organizing Committee will release a list of required hardware equipment. Contestants may select and customize their equipment in accordance with the competition rules. Contestants are also encouraged to develop their own innovative robotic systems for the Competition, with appropriate allowances provided. Further details on the equipment list and allowance usage will be available on the official ATEC website.  
+# Evaluation Scopes
+The offline competition will require each participating team to use their own robot system to complete the following 4 tasks in an outdoor environment:  
+1. Object Sorting Task:  
+The robot needs to identify, pick up, transport, and classify specific types of items within a designated area. The system should be equipped with visual perception, precise manipulation, and classification decision-making capabilities.  
+2. Object Transport and Water Sprinkling Task:  
+The robot needs to locate target items within a designated area, to plan operation sequences for sprinklers, faucets and other equipment, and to achieve object transport and fixed-point operation tasks. The system shall integrate environmental perception, motion planning, precise control and other functional modules.  
+3. Field Endurance Task:  
+The robot needs to maintain stable movement across outdoor terrain, including arched bridges, stairs, and gentle slopes. The system should be equipped with multi-sensor data fusion and adaptive motion control capabilities.  
+4. Suspension Bridge Crossing Task:  
+The robot needs to navigate through unevenly-spaced suspension bridges, laying wooden planks autonomously to ensure successful crossing (if necessary). The system should be equipped with stable motion planning, visual perception, precise operation, and rapid transit capabilities.  
+# Hardware Support
+The offline competition will provide participating teams with commercial-grade hardware supplies. Teams may choose independent research and development or configure their systems through the certified list provided by the Organizing Committee. Hardware specifications and configuration guidelines are scheduled for release in May 2025.   
